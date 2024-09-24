@@ -1,0 +1,21 @@
+body,
+html {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   background-color: aliceblue;
+   padding: 1rem;
+}
+
+.navbar {
+   display: flex;
+   flex-direction: row;
+   max-width: 500px;
+}
+
+.navbar-options {
+   display: flex;
+   flex-direction: column;
+}
