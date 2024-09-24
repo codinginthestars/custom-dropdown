@@ -18,4 +18,21 @@ header {
 .navbar-options {
    display: flex;
    flex-direction: column;
+   visibility: hidden;
+}
+
+.navbar-options a {
+   text-decoration: none;
+   text-align: center;
+}
+
+.show {
+   visibility: visible;
+}
+
+.dropBtn {
+   padding: 0.5rem;
+   border: none;
+   font-size: 1rem;
+   cursor: pointer;
 }
